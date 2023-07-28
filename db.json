@@ -135,6 +135,21 @@
       "phone": "8958784582",
       "slots": [
         {
+          "time": "9:30 AM",
+          "booked": false,
+          "user": null
+        },
+        {
+          "time": "10:30 AM",
+          "booked": false,
+          "user": null
+        },
+        {
+          "time": "11:30 AM",
+          "booked": false,
+          "user": null
+        },
+        {
           "time": "1:30 PM",
           "booked": false,
           "user": null
@@ -146,21 +161,13 @@
         },
         {
           "time": "3:30 PM",
-          "booked": true,
-          "user": {
-            "id": 1,
-            "name": "Sebastian Eschweiler",
-            "email": "sebastian@codingthesmartway.com"
-          }
+          "booked": false,
+          "user": null
         },
         {
           "time": "4:30 PM",
-          "booked": true,
-          "user": {
-            "id": 1,
-            "name": "Sebastian Eschweiler",
-            "email": "sebastian@codingthesmartway.com"
-          }
+          "booked": false,
+          "user": null
         },
         {
           "time": "5:30 PM",
@@ -169,12 +176,23 @@
         },
         {
           "time": "6:30 PM",
-          "booked": true,
-          "user": {
-            "id": 1,
-            "name": "Sebastian Eschweiler",
-            "email": "sebastian@codingthesmartway.com"
-          }
+          "booked": false,
+          "user": null
+        },
+        {
+          "time": "7:30 PM",
+          "booked": false,
+          "user": null
+        },
+        {
+          "time": "8:30 PM",
+          "booked": false,
+          "user": null
+        },
+        {
+          "time": "9:30 PM",
+          "booked": false,
+          "user": null
         }
       ]
     }
