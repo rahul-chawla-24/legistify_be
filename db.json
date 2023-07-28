@@ -19,16 +19,6 @@
       "email": "rahul@gmail.com",
       "name": "Rahul Chawla",
       "id": 4
-    },
-    {
-      "email": "userskill@mailsac.com",
-      "name": "Rahul Chawla",
-      "id": 5
-    },
-    {
-      "email": "xyz@gmail.com",
-      "name": "xyz",
-      "id": 6
     }
   ],
   "lawyers": [
@@ -37,9 +27,7 @@
       "name": "Ashok Nigam",
       "email": "ashoknigam@gmail.com",
       "speciality": "Bankruptcy Lawyer",
-      "firms": [
-        "Deloitte"
-      ],
+      "firms": ["Deloitte"],
       "address": "Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016",
       "phone": "8958784582",
       "slots": [
@@ -92,9 +80,7 @@
       "name": "Ankit Prajapati",
       "email": "ankitPrajapati@gmail.com",
       "speciality": "Business Lawyer (Corporate Lawyer)",
-      "firms": [
-        "Lawyer Mitra"
-      ],
+      "firms": ["Lawyer Mitra"],
       "address": "Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016",
       "phone": "8958784582",
       "slots": [
@@ -119,10 +105,7 @@
       "name": "Himanshu Divedi",
       "email": "himanshidivedi@gmail.com",
       "speciality": "Criminal Defense Lawyer",
-      "firms": [
-        "B&B Associates LLP",
-        "Trilegal India"
-      ],
+      "firms": ["B&B Associates LLP", "Trilegal India"],
       "address": "Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016",
       "phone": "8958784582",
       "slots": [
@@ -147,19 +130,45 @@
       "name": "Guddu Pandit",
       "email": "guddupandit@yahoo.com",
       "speciality": "Constitutional Lawyer",
-      "firms": [
-        "Kirkland & Ellis LLP"
-      ],
+      "firms": ["Kirkland & Ellis LLP"],
       "address": "Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016",
       "phone": "8958784582",
       "slots": [
         {
-          "time": "11:30 AM",
+          "time": "1:30 PM",
           "booked": false,
           "user": null
         },
         {
           "time": "2:30 PM",
+          "booked": false,
+          "user": null
+        },
+        {
+          "time": "3:30 PM",
+          "booked": true,
+          "user": {
+            "id": 1,
+            "name": "Sebastian Eschweiler",
+            "email": "sebastian@codingthesmartway.com"
+          }
+        },
+        {
+          "time": "4:30 PM",
+          "booked": true,
+          "user": {
+            "id": 1,
+            "name": "Sebastian Eschweiler",
+            "email": "sebastian@codingthesmartway.com"
+          }
+        },
+        {
+          "time": "5:30 PM",
+          "booked": false,
+          "user": null
+        },
+        {
+          "time": "6:30 PM",
           "booked": true,
           "user": {
             "id": 1,
